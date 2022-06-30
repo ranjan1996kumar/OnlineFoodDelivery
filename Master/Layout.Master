@@ -43,25 +43,40 @@
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg custom_nav-container">
                     <a class="navbar-brand" href="index.html">
+                        <img src="../images/download.png" alt=""  width="120" height="60"/>
                         <span>Delfood
             </span>
                     </a>
                     <div class="" id="">
                         <div class="User_option">
-                            <a href="">
+                            <a href="../Login/Login.aspx">
                                 <i class="fa fa-user" aria-hidden="true"></i>
                                 <span>Login</span>
                             </a>
                             <form class="form-inline ">
-                                <input type="search" placeholder="Search" />
-                                <button class="btn  nav_search-btn" type="submit">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
+                               <%-- <input type="search" placeholder="Search" />--%>
+                                <button class="btn  nav_search-btn" type="submit" >
+                                    <%--<i class="fa fa-search" aria-hidden="true"></i>--%>
                                 </button>
                             </form>
+                            
+                            <%--<img src="../images/download.png" />--%>
+                            <a class="align-bottom" href="#" ><i class="fa fa-cart-plus" style="font-size:45px"></i></a>
+
+                             <%-- <div class="aa-cartbox" id="divcart">
+                                <a class="aa-cart-link" href="/ShoppingCart">
+                                    <span class="fa fa-shopping-cart"></span>
+                                    <span class="aa-cart-notify"></span>
+                                    <span class="cartAmt"></span>
+                                    <input type="hidden" id="hdCartcount" value="0" />
+
+                                </a>
+
+                            </div>--%>
                         </div>
                         <div class="custom_menu-btn">
                             <button onclick="openNav()">
-                                <img src="../images/menu.png" alt=""/>
+                                <img src="../images/menu.png" alt="" />
                             </button>
                         </div>
                         <div id="myNav" class="overlay">
@@ -139,7 +154,6 @@
                 </div>
                 <div class="item">
                     <div class="img-box">
-<%--                        <img src="../images/slider-img4.png" alt="" />--%>
                         <img src="../images/slider-img4.png" alt="" />
                     </div>
                 </div>
@@ -160,7 +174,6 @@
                 </div>
                 <div class="item">
                     <div class="img-box">
-<%--                        <img src="../images/slider-img4.png" alt="" />--%>
                         <img src="../images/slider-img4.png" alt="" />
                     </div>
                 </div>
