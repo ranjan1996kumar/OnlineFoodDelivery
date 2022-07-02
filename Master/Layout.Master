@@ -42,36 +42,43 @@
         <header class="header_section">
             <div class="container-fluid">
                 <nav class="navbar navbar-expand-lg custom_nav-container">
-                    <a class="navbar-brand" href="index.html">
-                        <span>Delfood
-            </span>
+                    <a class="navbar-brand" href="../Home/Home.aspx">
+                        
+                        <img src="../Home/images/Blogo-removebg-preview.png" alt="Bhukkad"  width="50" height="60" title="Bhukkad"/>                        
+                        <%--<span>Bhukkad</span>--%>
+
                     </a>
                     <div class="" id="">
                         <div class="User_option">
-                            <a href="">
+                            <a href="../Login/Login.aspx">
                                 <i class="fa fa-user" aria-hidden="true"></i>
                                 <span>Login</span>
                             </a>
                             <form class="form-inline ">
-                                <input type="search" placeholder="Search" />
-                                <button class="btn  nav_search-btn" type="submit">
-                                    <i class="fa fa-search" aria-hidden="true"></i>
+                               <%-- <input type="search" placeholder="Search" />--%>
+                                <button class="btn  nav_search-btn" type="submit" >
+                                    <%--<i class="fa fa-search" aria-hidden="true"></i>--%>
                                 </button>
                             </form>
+                            
+                           
+                            <a class="align-bottom" href="#" ><i class="fa fa-cart-plus" style="font-size:45px"></i></a>
+
+                            
                         </div>
-                        <div class="custom_menu-btn">
+                        <%--<div class="custom_menu-btn">
                             <button onclick="openNav()">
-                                <img src="../images/menu.png" alt=""/>
+                                <img src="../images/menu.png" alt="" />
                             </button>
-                        </div>
-                        <div id="myNav" class="overlay">
+                        </div>--%>
+                        <%--<div id="myNav" class="overlay">
                             <div class="overlay-content">
-                                <a href="index.html">Home</a>
+                                <a href="../Home/Home.aspx"> Home</a>
                                 <a href="about.html">About</a>
                                 <a href="blog.html">Blog</a>
                                 <a href="testimonial.html">Testimonial</a>
                             </div>
-                        </div>
+                        </div>--%>
                     </div>
                 </nav>
             </div>
@@ -127,41 +134,42 @@
 
                     </div>
                 </div>--%>
+
                 <div class="item">
                     <div class="img-box">
-                        <img src="../images/slider-img2.png" alt="" />
+                        <img src="../images/slider-img2.png" alt="" title="Paneer"/>
+                        <a href="../Login/Login.aspx">
+                        </a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="img-box">
-                        <img src="../images/slider-img3.png" alt="" />
+                        <img src="../images/slider-img3.png" alt="" title="Gravy Masala"/>
                     </div>
                 </div>
                 <div class="item">
                     <div class="img-box">
-<%--                        <img src="../images/slider-img4.png" alt="" />--%>
-                        <img src="../images/slider-img4.png" alt="" />
+                        <img src="../images/slider-img4.png" alt="" title="Salaad"/>
                     </div>
                 </div>
                 <div class="item">
                     <div class="img-box">
-                        <img src="../images/slider-img1.png" alt="" />
+                        <img src="../images/slider-img1.png" alt="" title="Mixed Veg"/>
                     </div>
                 </div>
                 <div class="item">
                     <div class="img-box">
-                        <img src="../images/slider-img2.png" alt="" />
+                        <img src="../images/slider-img2.png" alt="" title="Paneer"/>
                     </div>
                 </div>
                 <div class="item">
                     <div class="img-box">
-                        <img src="../images/slider-img3.png" alt="" />
+                        <img src="../images/slider-img3.png" alt="" title="Gravy Masala"/>
                     </div>
                 </div>
                 <div class="item">
                     <div class="img-box">
-<%--                        <img src="../images/slider-img4.png" alt="" />--%>
-                        <img src="../images/slider-img4.png" alt="" />
+                        <img src="../images/slider-img4.png" alt="" title="Salaad"/>
                     </div>
                 </div>
             </div>
@@ -191,19 +199,19 @@
                 <div class="info_links">
                     <ul>
                         <li class="active">
-                            <a href="index.html">Home
+                                <a href="../Home/Home.aspx"> Home</a>
               </a>
                         </li>
                         <li>
-                            <a href="about.html">About
+                            <a href="../Home/About.aspx">About</a>
               </a>
                         </li>
                         <li>
-                            <a class="" href="blog.html">Blog
+                            <a href="../Home/Blog.aspx">Blog</a>
               </a>
                         </li>
                         <li>
-                            <a class="" href="testimonial.html">Testimonial
+                            <a href="../Home/Testimonial.aspx">testimonial</a>
               </a>
                         </li>
                     </ul>
