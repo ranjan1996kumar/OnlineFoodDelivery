@@ -77,6 +77,30 @@
     <Content Include="Breakfast\FoodImgs\7.jpg" />
     <Content Include="Breakfast\FoodImgs\8.jpg" />
     <Content Include="Breakfast\FoodImgs\9.jpg" />
+    <Content Include="css\Style1.css" />
+    <Content Include="Explore Resturent\Images\1.jpg" />
+    <Content Include="Explore Resturent\Images\10.jpg" />
+    <Content Include="Explore Resturent\Images\11.jpg" />
+    <Content Include="Explore Resturent\Images\12.jpg" />
+    <Content Include="Explore Resturent\Images\2.jpg" />
+    <Content Include="Explore Resturent\Images\3.jpg" />
+    <Content Include="Explore Resturent\Images\4.jpg" />
+    <Content Include="Explore Resturent\Images\5.jpg" />
+    <Content Include="Explore Resturent\Images\6.jpg" />
+    <Content Include="Explore Resturent\Images\7.jpg" />
+    <Content Include="Explore Resturent\Images\8.jpg" />
+    <Content Include="Explore Resturent\Images\9.jpg" />
+    <Content Include="Explore Resturent\Images\download.jpg" />
+    <Content Include="Explore Resturent\Images\h1.jpg" />
+    <Content Include="Explore Resturent\Images\images %281%29.jpg" />
+    <Content Include="Explore Resturent\Images\images %282%29.jpg" />
+    <Content Include="Explore Resturent\Images\images %283%29.jpg" />
+    <Content Include="Explore Resturent\Images\images %284%29.jpg" />
+    <Content Include="Explore Resturent\Images\images %285%29.jpg" />
+    <Content Include="Explore Resturent\Images\images %286%29.jpg" />
+    <Content Include="Explore Resturent\Images\images.jpg" />
+    <Content Include="Explore Resturent\Resturent.aspx" />
+    <Content Include="Explore Resturent\style.css" />
     <Content Include="Home\About.aspx" />
     <Content Include="Home\Blog.aspx" />
     <Content Include="Breakfast\Breakfast.aspx" />
@@ -190,13 +214,39 @@
     <Content Include="Lunch\Lunch.aspx" />
     <Content Include="Master\UserProfile.aspx" />
     <Content Include="Master\WebForm1.aspx" />
+    <Content Include="Offers\2 %281%29.mp4" />
+    <Content Include="Offers\2 %282%29.mp4" />
+    <Content Include="Offers\Offers.aspx" />
+    <Content Include="Offers\Restaurant Promotion Flyer Design PSD - PSD Zone.png" />
     <Content Include="Registration\css\style.css" />
     <Content Include="Registration\images\bg.jpg" />
     <Content Include="Registration\images\grid.png" />
     <Content Include="Registration\SignUp.aspx" />
+    <Content Include="Search\Image\1.jpg" />
+    <Content Include="Search\Image\11.jpg" />
+    <Content Include="Search\Image\13.jpg" />
+    <Content Include="Search\Image\14.jpg" />
+    <Content Include="Search\Image\15.jpg" />
+    <Content Include="Search\Image\2.jpg" />
+    <Content Include="Search\Image\3.jpg" />
+    <Content Include="Search\Image\4.jpg" />
+    <Content Include="Search\Image\5.jpg" />
+    <Content Include="Search\Image\6.jpeg" />
+    <Content Include="Search\Image\7.jpg" />
+    <Content Include="Search\Image\8.jpg" />
+    <Content Include="Search\Image\9.jpg" />
+    <Content Include="Search\Search.aspx" />
+    <Content Include="Search\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Explore Resturent\Resturent.aspx.cs">
+      <DependentUpon>Resturent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Explore Resturent\Resturent.aspx.designer.cs">
+      <DependentUpon>Resturent.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home\About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -270,6 +320,13 @@
     <Compile Include="Master\WebForm1.aspx.designer.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Offers\Offers.aspx.cs">
+      <DependentUpon>Offers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Offers\Offers.aspx.designer.cs">
+      <DependentUpon>Offers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration\SignUp.aspx.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
@@ -277,6 +334,13 @@
     </Compile>
     <Compile Include="Registration\SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Search\Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search\Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -309,7 +373,12 @@
     <Content Include="Home\fonts\fontawesome-webfont.woff" />
     <Content Include="Home\fonts\fontawesome-webfont.woff2" />
     <Content Include="Home\images\cart2" />
+    <Content Include="Explore Resturent\Images\6.webp" />
+    <Content Include="Offers\style.scss" />
     <None Include="packages.config" />
+    <Content Include="Search\Image\2.webp" />
+    <Content Include="Search\Image\10.webp" />
+    <Content Include="Search\Image\12.webp" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
