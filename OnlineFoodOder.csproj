@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>OnlineFoodOder</RootNamespace>
     <AssemblyName>OnlineFoodOder</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,22 +45,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
@@ -67,6 +67,153 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Breakfast\Dinner.aspx" />
+    <Content Include="Breakfast\FoodImgs\1.jpg" />
+    <Content Include="Breakfast\FoodImgs\10.jpg" />
+    <Content Include="Breakfast\FoodImgs\2.jpg" />
+    <Content Include="Breakfast\FoodImgs\3.jpg" />
+    <Content Include="Breakfast\FoodImgs\4.jpg" />
+    <Content Include="Breakfast\FoodImgs\5.jpg" />
+    <Content Include="Breakfast\FoodImgs\6.jpg" />
+    <Content Include="Breakfast\FoodImgs\7.jpg" />
+    <Content Include="Breakfast\FoodImgs\8.jpg" />
+    <Content Include="Breakfast\FoodImgs\9.jpg" />
+    <Content Include="Breakfast\ImgBreakfast\B1.jpeg" />
+    <Content Include="Breakfast\ImgBreakfast\B10.jpeg" />
+    <Content Include="Breakfast\ImgBreakfast\B11.jpeg" />
+    <Content Include="Breakfast\ImgBreakfast\B12.jpeg" />
+    <Content Include="Breakfast\ImgBreakfast\B13.jpeg" />
+    <Content Include="Breakfast\ImgBreakfast\B14.jpeg" />
+    <Content Include="Breakfast\ImgBreakfast\B2.jpeg" />
+    <Content Include="Breakfast\ImgBreakfast\B3.jpeg" />
+    <Content Include="Breakfast\ImgBreakfast\B4.jpeg" />
+    <Content Include="Breakfast\ImgBreakfast\B5.jpeg" />
+    <Content Include="Breakfast\ImgBreakfast\B6.jpeg" />
+    <Content Include="Breakfast\ImgBreakfast\B7.jpeg" />
+    <Content Include="Breakfast\ImgBreakfast\B8.jpeg" />
+    <Content Include="Breakfast\ImgBreakfast\B9.jpeg" />
+    <Content Include="Breakfast\ImgDinner\D1.jpg" />
+    <Content Include="Breakfast\ImgDinner\D10.jpg" />
+    <Content Include="Breakfast\ImgDinner\D11.jpg" />
+    <Content Include="Breakfast\ImgDinner\D12.jpg" />
+    <Content Include="Breakfast\ImgDinner\D2.jpg" />
+    <Content Include="Breakfast\ImgDinner\D3.jpg" />
+    <Content Include="Breakfast\ImgDinner\D4.jpg" />
+    <Content Include="Breakfast\ImgDinner\D6.jpeg" />
+    <Content Include="Breakfast\ImgDinner\D7.jpeg" />
+    <Content Include="Breakfast\ImgDinner\D8.jpg" />
+    <Content Include="Breakfast\ImgDinner\D9.jpeg" />
+    <Content Include="Breakfast\ImgLunch\L1.jpeg" />
+    <Content Include="Breakfast\ImgLunch\L10.jpg" />
+    <Content Include="Breakfast\ImgLunch\L11.jpg" />
+    <Content Include="Breakfast\ImgLunch\L12.jpg" />
+    <Content Include="Breakfast\ImgLunch\L13.jpg" />
+    <Content Include="Breakfast\ImgLunch\L2.jpeg" />
+    <Content Include="Breakfast\ImgLunch\L3.jpeg" />
+    <Content Include="Breakfast\ImgLunch\L4.jpeg" />
+    <Content Include="Breakfast\ImgLunch\L5.jpeg" />
+    <Content Include="Breakfast\ImgLunch\L6.jpg" />
+    <Content Include="Breakfast\ImgLunch\L7.jpg" />
+    <Content Include="Breakfast\ImgLunch\L8.jpg" />
+    <Content Include="Breakfast\ImgLunch\L9.jpg" />
+    <Content Include="Breakfast\Lunch.aspx" />
+    <Content Include="Cart\css\osahan.css" />
+    <Content Include="Cart\img\1.jpg" />
+    <Content Include="Cart\img\2.jpg" />
+    <Content Include="Cart\img\3.jpg" />
+    <Content Include="Cart\img\4.jpg" />
+    <Content Include="Cart\img\404.png" />
+    <Content Include="Cart\img\5.jpg" />
+    <Content Include="Cart\img\apple.png" />
+    <Content Include="Cart\img\bank\1.png" />
+    <Content Include="Cart\img\bank\2.png" />
+    <Content Include="Cart\img\bank\3.png" />
+    <Content Include="Cart\img\bank\4.png" />
+    <Content Include="Cart\img\bank\5.png" />
+    <Content Include="Cart\img\bank\6.png" />
+    <Content Include="Cart\img\bank\7.png" />
+    <Content Include="Cart\img\bank\8.png" />
+    <Content Include="Cart\img\bg.png" />
+    <Content Include="Cart\img\cart.jpg" />
+    <Content Include="Cart\img\earn-score-icon.png" />
+    <Content Include="Cart\img\favicon.png" />
+    <Content Include="Cart\img\gallery\1.png" />
+    <Content Include="Cart\img\gallery\2.png" />
+    <Content Include="Cart\img\gallery\3.png" />
+    <Content Include="Cart\img\google.png" />
+    <Content Include="Cart\img\list\1.png" />
+    <Content Include="Cart\img\list\2.png" />
+    <Content Include="Cart\img\list\3.png" />
+    <Content Include="Cart\img\list\4.png" />
+    <Content Include="Cart\img\list\5.png" />
+    <Content Include="Cart\img\list\6.png" />
+    <Content Include="Cart\img\list\7.png" />
+    <Content Include="Cart\img\list\8.png" />
+    <Content Include="Cart\img\list\9.png" />
+    <Content Include="Cart\img\login-bg.png" />
+    <Content Include="Cart\img\logo.png" />
+    <Content Include="Cart\img\mall-dedicated-banner.png" />
+    <Content Include="Cart\img\pro1.jpg" />
+    <Content Include="Cart\img\pro2.jpg" />
+    <Content Include="Cart\img\pro3.jpg" />
+    <Content Include="Cart\img\pro4.jpg" />
+    <Content Include="Cart\img\thanks.png" />
+    <Content Include="Cart\img\user\1.png" />
+    <Content Include="Cart\img\user\2.png" />
+    <Content Include="Cart\img\user\3.png" />
+    <Content Include="Cart\img\user\4.png" />
+    <Content Include="Cart\img\user\5.png" />
+    <Content Include="Cart\img\user\6.png" />
+    <Content Include="Cart\img\wallet-icon.png" />
+    <Content Include="Cart\js\custom.js" />
+    <Content Include="Cart\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Cart\vendor\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Cart\vendor\fontawesome\css\all.min.css" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-brands-400.svg" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-regular-400.svg" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-solid-900.svg" />
+    <Content Include="Cart\vendor\icofont\icofont.min.css" />
+    <Content Include="Cart\vendor\jquery\jquery-3.3.1.slim.min.js" />
+    <Content Include="Cart\vendor\owl-carousel\owl.carousel.css" />
+    <Content Include="Cart\vendor\owl-carousel\owl.carousel.js" />
+    <Content Include="Cart\vendor\owl-carousel\owl.theme.css" />
+    <Content Include="Cart\vendor\select2\css\select2.min.css" />
+    <Content Include="Cart\vendor\select2\js\select2.min.js" />
+    <Content Include="Home\About.aspx" />
+    <Content Include="Home\Blog.aspx" />
+    <Content Include="Breakfast\Breakfast.aspx" />
+    <Content Include="Breakfast\css\bootstrap.css" />
+    <Content Include="Breakfast\css\clndr.css" />
+    <Content Include="Breakfast\css\style.css" />
+    <Content Include="Breakfast\images\a-star.png" />
+    <Content Include="Breakfast\images\a-str.png" />
+    <Content Include="Breakfast\images\berger-banner.jpg" />
+    <Content Include="Breakfast\images\c-banner.jpg" />
+    <Content Include="Breakfast\images\close.png" />
+    <Content Include="Breakfast\images\f-banner.jpg" />
+    <Content Include="Breakfast\images\i-banner.jpg" />
+    <Content Include="Breakfast\images\j-str.png" />
+    <Content Include="Breakfast\images\j1.jpg" />
+    <Content Include="Breakfast\images\ja-str.png" />
+    <Content Include="Breakfast\images\l-1.jpg" />
+    <Content Include="Breakfast\images\l-2.jpg" />
+    <Content Include="Breakfast\images\l-3.jpg" />
+    <Content Include="Breakfast\images\menu-sprit.png" />
+    <Content Include="Breakfast\images\menu.png" />
+    <Content Include="Breakfast\images\my-banner.jpg" />
+    <Content Include="Breakfast\images\n-banner.jpg" />
+    <Content Include="Breakfast\images\side-arw.png" />
+    <Content Include="Breakfast\images\side.png" />
+    <Content Include="Breakfast\images\star.png" />
+    <Content Include="Breakfast\images\stars.png" />
+    <Content Include="Breakfast\images\str.png" />
+    <Content Include="Breakfast\js\clndr.js" />
+    <Content Include="Breakfast\js\global.js" />
+    <Content Include="Breakfast\js\jquery.min.js" />
+    <Content Include="Breakfast\js\moment-2.2.1.js" />
+    <Content Include="Breakfast\js\responsiveslides.min.js" />
+    <Content Include="Breakfast\js\site.js" />
+    <Content Include="Breakfast\js\underscore-min.js" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="css\nice-select.min.css" />
@@ -74,7 +221,40 @@
     <Content Include="css\slick.min.css" />
     <Content Include="css\style.css" />
     <Content Include="Global.asax" />
+    <Content Include="Cart\Cart.aspx" />
+    <Content Include="Home\css\bootstrap.css" />
+    <Content Include="Home\css\font-awesome.min.css" />
+    <Content Include="Home\css\responsive.css" />
+    <Content Include="Home\css\style.css" />
     <Content Include="Home\Home.aspx" />
+    <Content Include="Home\images\about-img.jpg" />
+    <Content Include="Home\images\app-bg.png" />
+    <Content Include="Home\images\app_store.png" />
+    <Content Include="Home\images\body-bg.jpg" />
+    <Content Include="Home\images\Cart1.png" />
+    <Content Include="Home\images\cart3.jpg" />
+    <Content Include="Home\images\cart4.jpg" />
+    <Content Include="Home\images\cart5.png" />
+    <Content Include="Home\images\cart7.png" />
+    <Content Include="Home\images\footer-bg.png" />
+    <Content Include="Home\images\google_play.png" />
+    <Content Include="Home\images\hero-bg.jpg" />
+    <Content Include="Home\images\menu.png" />
+    <Content Include="Home\images\mobile.png" />
+    <Content Include="Home\images\n1.jpg" />
+    <Content Include="Home\images\n2.jpg" />
+    <Content Include="Home\images\r1.jpg" />
+    <Content Include="Home\images\r2.jpg" />
+    <Content Include="Home\images\r3.jpg" />
+    <Content Include="Home\images\slider-img1.png" />
+    <Content Include="Home\images\slider-img2.png" />
+    <Content Include="Home\images\slider-img3.png" />
+    <Content Include="Home\images\slider-img4.png" />
+    <Content Include="Home\js\bootstrap.js" />
+    <Content Include="Home\js\custom.js" />
+    <Content Include="Home\js\jquery-3.4.1.min.js" />
+    <Content Include="Home\Search.aspx" />
+    <Content Include="Home\Testimonial.aspx" />
     <Content Include="images\about-img.jpg" />
     <Content Include="images\app-bg.png" />
     <Content Include="images\app_store.png" />
@@ -104,11 +284,10 @@
     <Content Include="js\jquery-3.4.1.min.js" />
     <Content Include="js\jquery.nice-select.min.js" />
     <Content Include="js\slick.js" />
-    <Content Include="Login\css\font-awesome.min.css" />
     <Content Include="Login\css\style.css" />
-    <Content Include="Login\fonts\fontawesome-webfont.svg" />
-    <Content Include="Login\images\img.jpg" />
+    <Content Include="Login\images\banner.jpg" />
     <Content Include="Login\Login.aspx" />
+    <Content Include="Order\Order.aspx" />
     <Content Include="Master\UserProfile.aspx" />
     <Content Include="Master\WebForm1.aspx" />
     <Content Include="Registration\css\style.css" />
@@ -118,8 +297,50 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Breakfast\Dinner.aspx.cs">
+      <DependentUpon>Dinner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Breakfast\Dinner.aspx.designer.cs">
+      <DependentUpon>Dinner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Breakfast\Lunch.aspx.cs">
+      <DependentUpon>Lunch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Breakfast\Lunch.aspx.designer.cs">
+      <DependentUpon>Lunch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Blog.aspx.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\Blog.aspx.designer.cs">
+      <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Breakfast\Breakfast.aspx.cs">
+      <DependentUpon>Breakfast.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Breakfast\Breakfast.aspx.designer.cs">
+      <DependentUpon>Breakfast.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Cart\Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart\Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
@@ -128,12 +349,33 @@
     <Compile Include="Home\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Home\Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home\Testimonial.aspx.cs">
+      <DependentUpon>Testimonial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home\Testimonial.aspx.designer.cs">
+      <DependentUpon>Testimonial.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Login\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Order\Order.aspx.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Order\Order.aspx.designer.cs">
+      <DependentUpon>Order.aspx</DependentUpon>
     </Compile>
     <Compile Include="Master\Layout.Master.cs">
       <DependentUpon>Layout.Master</DependentUpon>
@@ -178,11 +420,39 @@
     <Content Include=".vs\slnx.sqlite" />
     <Content Include=".vs\VSWorkspaceState.json" />
     <Content Include="css\slick-theme.min.css.map" />
-    <Content Include="Login\fonts\fontawesome-webfont.eot" />
-    <Content Include="Login\fonts\fontawesome-webfont.ttf" />
-    <Content Include="Login\fonts\fontawesome-webfont.woff" />
-    <Content Include="Login\fonts\fontawesome-webfont.woff2" />
-    <Content Include="Login\fonts\FontAwesome.otf" />
+    <Content Include="Breakfast\fonts\Montserrat-Bold.ttf" />
+    <Content Include="Breakfast\fonts\Montserrat-Regular.ttf" />
+    <Content Include="Home\.vs\delfood-1.0.0\v16\.suo" />
+    <Content Include="Home\.vs\slnx.sqlite" />
+    <Content Include="Home\.vs\VSWorkspaceState.json" />
+    <Content Include="Home\css\style.css.map" />
+    <Content Include="Home\css\style.scss" />
+    <Content Include="Home\fonts\bodoni-svtytwo-sc-itc-tt-book.ttf" />
+    <Content Include="Home\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Home\fonts\fontawesome-webfont.woff" />
+    <Content Include="Home\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Home\images\cart2" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-brands-400.eot" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-brands-400.ttf" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-brands-400.woff" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-brands-400.woff2" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-brands-400d41d.eot" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-regular-400.eot" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-regular-400.ttf" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-regular-400.woff" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-regular-400.woff2" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-regular-400d41d.eot" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-solid-900.eot" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-solid-900.ttf" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-solid-900.woff" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-solid-900.woff2" />
+    <Content Include="Cart\vendor\fontawesome\webfonts\fa-solid-900d41d.eot" />
+    <Content Include="Cart\vendor\icofont\fonts\icofont.woff" />
+    <Content Include="Cart\vendor\icofont\fonts\icofont.woff2" />
+    <Content Include="Login\.vs\slnx.sqlite" />
+    <Content Include="Login\.vs\web\config\applicationhost.config" />
+    <Content Include="Login\fonts\Lobster-Regular.ttf" />
+    <Content Include="Login\fonts\Righteous-Regular.ttf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -195,6 +465,7 @@
     <Folder Include=".vs\OnlineFoodDelivery-main\v16\" />
     <Folder Include=".vs\OnlineFoodOder\v16\" />
     <Folder Include="App_Data\" />
+    <Folder Include="Login\.vs\web\v16\" />
     <Folder Include="Models\" />
     <Folder Include="User\" />
   </ItemGroup>
