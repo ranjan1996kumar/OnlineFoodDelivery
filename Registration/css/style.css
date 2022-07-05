@@ -139,6 +139,26 @@ p.footer {
 p.footer a{
     color:#fff;
 }
+
+
+/*p.account,
+p.account a {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.9;
+}
+
+    p.account a {
+        color: #ffd900;
+    }
+
+        p.account a:hover {
+            text-decoration: underline;
+        }*/
+
 /* -- Responsive code -- */
 @media screen and (max-width: 1920px){
     h1.wthree {
@@ -263,5 +283,29 @@ p.footer a{
     .login-w3l {
         width: 76%;
     }
+
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+        p.account, p.account a {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 0px;
+            font-size: 16px;
+            color: #fff;
+            opacity: 0.9;
+        }
+    /*p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }*/
 }
 /* -- //Responsive code -- */

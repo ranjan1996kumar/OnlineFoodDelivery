@@ -42,7 +42,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<input placeholder="*****" name="first name" type="password" required="">
 					</div>	
 					<input type="submit" value="Signup">
+					<br />
 					 <p class="account">Already Signed in?  <a href="../Login/Login.aspx">Login</a></p>
+
 				</form>
 			</div>
 		</div>	
