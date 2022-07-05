@@ -45,9 +45,7 @@
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="Home.aspx">
-            <span>
-              Bhukkad
-            </span>
+            <img src="../Home/images/Blogo-removebg-preview.png" alt="Bhukkad"  width="50" height="60" title="Bhukkad"/>
           </a>
           <div class="" id="">
             <div class="User_option">
@@ -63,9 +61,9 @@
               </form>
             </div>
             <div class="custom_menu-btn">
-              <button onclick="openNav()">
+              <%--<button onclick="openNav()">
                 <img src="images/menu.png" alt="">
-              </button>
+              </button>--%>
             </div>
             <div id="myNav" class="overlay">
               <div class="overlay-content">

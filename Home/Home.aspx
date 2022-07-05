@@ -57,9 +57,9 @@
                 </div>
             </div>
             <div class="btn-box">
-                <a href="../Lunch/Lunch.aspx">Order Now</a>
+                <a href="../Explore Resturent/Resturent.aspx">Explore Restaurant's </a>
       
-            </div>
+            </div> 
         </div>
     </section>
 
@@ -88,8 +88,7 @@
                     </div>
                     <div class="detail-box">
                         <p>
-                            Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable
-           
+                            Bhukkad is a food ordering and delivery company based out of Bangalore, India. Bhukkad was inspired by the thought of providing a complete food ordering and delivery solution from the best neighbourhood restaurants to the urban foodie.           
                         </p>
                        <%-- <a href="">
                             <i class="fa fa-arrow-right" aria-hidden="true"></i>
@@ -157,10 +156,9 @@
                             <h4>Tasty Food For you
               </h4>
                             <p>
-                                there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
-             
+                                Having a hearty breakfast satiates you and works as good preparation for a productive day (which is why it is so important!)             
                             </p>
-                            <a href="">
+                            <a href="https://timesofindia.indiatimes.com/life-style/food-news/monsoon-special-10-foods-from-around-the-country-to-make-rains-special/photostory/92600091.cms">
                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
                             </a>
                         </div>
@@ -175,10 +173,9 @@
                             <h4>Breakfast For you
               </h4>
                             <p>
-                                there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
-             
+                                The only bar I frequent is, without a shred of doubt, the salad bar.When life gives you lemons, squeeze them on your salad!
                             </p>
-                            <a href="">
+                            <a href="https://timesofindia.indiatimes.com/life-style/food-news/monsoon-special-10-foods-from-around-the-country-to-make-rains-special/photostory/92600091.cms">
                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
                             </a>
                         </div>
@@ -205,7 +202,7 @@
                             <div class="detail-box">
                                 <h4>User</h4>
                                 <p>
-                                    What I like most about this application is it's provide food at our doorstep at very good cost and quality. This application is used by for most of the time because I can easily order my food from my favourite near by resturant or food store a get it within 30-40 min. Of ordering. I also like the way they provide there customer support services like if any food is found to be not good then they will provide us monkey back that's truly amazing for me. Also real time food tracing system is also one of my favourite feature of this application.
+                                    What I like most about this application is it's provide food at our doorstep at very good cost and quality. This application is used by for most of the time because I can easily my food from my favourite near by resturant or food store a get it within 30-40 min. Of ordering. I also like the way they provide there customer support services like if any food is found to be not good then they will provide us monkey back that's truly amazing for me. Also real time food tracing system is also one of my favourite feature of this application.
 
                                 </p>
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
