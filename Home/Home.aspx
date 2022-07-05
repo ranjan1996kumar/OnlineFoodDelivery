@@ -20,7 +20,7 @@
                         <div class="detail-box">
                             <h4>Breakfast
               </h4>
-                            <a href="">
+                            <a href="../Breakfast/Breakfast.aspx">
                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
                             </a>
                         </div>
@@ -34,9 +34,10 @@
                         <div class="detail-box">
                             <h4>Lunch
               </h4>
-                            <a href="">
+                            <a href="../Breakfast/Lunch.aspx">
+                            <%--<a href="../Breakfast/Breakfast.aspx">--%>
                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                            </a>
+                           </a>
                         </div>
                     </div>
                 </div>
@@ -48,18 +49,23 @@
                         <div class="detail-box">
                             <h4>Dinner
               </h4>
-                            <a href="">
+                            <%--<a href="../Breakfast/Breakfast.aspx">--%>
+                            <a href="../Breakfast/Dinner.aspx">
                                 <i class="fa fa-arrow-right" aria-hidden="true"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="btn-box">
-                <a href="">Order Now
-        </a>
+      
             </div>
         </div>
+                      <div class="btn-box">
+               <%-- <a href="../Lunch/Lunch.aspx">Order Now</a>--%>
+                          <a href="../Order/Order.aspx">Order now</a>
+      
+            </div>
+      
+            </div>
     </section>
 
     <!-- end recipe section -->
@@ -90,9 +96,9 @@
                             Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable
            
                         </p>
-                        <a href="">
+                       <%-- <a href="">
                             <i class="fa fa-arrow-right" aria-hidden="true"></i>
-                        </a>
+                        </a>--%>
                     </div>
                 </div>
             </div>
@@ -100,7 +106,7 @@
     </section>
 
     <!-- end about section -->
-    <section class="app_section">
+   <%-- <section class="app_section">
         <div class="container">
             <div class="col-md-9 mx-auto">
                 <div class="row">
@@ -136,7 +142,7 @@
             </div>
         </div>
 
-    </section>
+    </section>--%>
 
     <!-- news section -->
 
@@ -197,15 +203,15 @@
                 <div class="heading_container heading_center">
                     <h2>Testimonial
           </h2>
-                </div>
+                
                 <div id="customCarousel1" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="detail-box">
-                                <h4>Virginia
+                                <h4>Aishwarya
                 </h4>
                                 <p>
-                                    Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+                                    India, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
                
                                 </p>
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -213,10 +219,10 @@
                         </div>
                         <div class="carousel-item">
                             <div class="detail-box">
-                                <h4>Virginia
+                                <h4>Sushma
                 </h4>
                                 <p>
-                                    Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+                                    Japan, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
                
                                 </p>
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -224,10 +230,10 @@
                         </div>
                         <div class="carousel-item">
                             <div class="detail-box">
-                                <h4>Virginia
+                                <h4>Ranjan
                 </h4>
                                 <p>
-                                    Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+                                    USA, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
                
                                 </p>
                                 <i class="fa fa-quote-left" aria-hidden="true"></i>
