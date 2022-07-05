@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.Master.cs" Inherits="OnlineFoodOder.Master.Site1" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.Master.cs" Inherits="OnlineFoodOder.Master.Site1" %>
 
 <!DOCTYPE html>
 
@@ -49,23 +49,45 @@
                     </a>
                     <div class="" id="">
                         <div class="User_option">
+
                            <%-- <a href="../Login/Login.aspx">--%>
+
                             <a href="../Login/Login.aspx">
                                 <i class="fa fa-user" aria-hidden="true"></i>
                                 <span>Login</span>
                             </a>
                             <form class="form-inline ">
                                <%-- <input type="search" placeholder="Search" />--%>
+
                                 <button class="btn  nav_search-btn" type="submit">
+
+                                <button class="btn  nav_search-btn" type="submit" >
+
                                     <%--<i class="fa fa-search" aria-hidden="true"></i>--%>
                                 </button>
                             </form>
                             
+
                             <a href="../Cart/Cart.aspx">   <i class="fa fa-cart-plus" style="font-size:45px"></i></a>
                             <%--<a href="../Home/Cart.aspx"> <i class="fa fa-cart-plus" style="font-size:45px"></i></a>--%>
                            <%-- <a class="align-bottom" href="#" ><i class="fa fa-cart-plus" style="font-size:45px"></i></a>--%>
                            <%-- <button type"submit" class="btn "><a href="../Home/Search.aspx">Search</a></button>--%>
                             
+
+                            <%--<img src="../images/download.png" />--%>
+                            <a class="align-bottom" href="#" ><i class="fa fa-cart-plus" style="font-size:45px"></i></a>
+
+                             <%-- <div class="aa-cartbox" id="divcart">
+                                <a class="aa-cart-link" href="/ShoppingCart">
+                                    <span class="fa fa-shopping-cart"></span>
+                                    <span class="aa-cart-notify"></span>
+                                    <span class="cartAmt"></span>
+                                    <input type="hidden" id="hdCartcount" value="0" />
+
+                                </a>
+
+                            </div>--%>
+
                         </div>
                         <%--<div class="custom_menu-btn">
                             <button onclick="openNav()">
@@ -199,6 +221,7 @@
                 <div class="info_links">
                     <ul>
                         <li class="active">
+
                                 <a href="../Home/Home.aspx"> Home</a>
               </a>
                         </li>
@@ -212,6 +235,21 @@
                         </li>
                         <li>
                             <a href="../Home/Testimonial.aspx">testimonial</a>
+
+                            <a href="index.html">Home
+              </a>
+                        </li>
+                        <li>
+                            <a href="about.html">About
+              </a>
+                        </li>
+                        <li>
+                            <a class="" href="blog.html">Blog
+              </a>
+                        </li>
+                        <li>
+                            <a class="" href="testimonial.html">Testimonial
+
               </a>
                         </li>
                     </ul>
