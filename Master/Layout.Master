@@ -1,0 +1,302 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Layout.Master.cs" Inherits="OnlineFoodOder.Master.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="icon" type="image/png" href="../images/Blogo.jpg">
+    <!-- bootstrap core css -->
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <!-- fonts style -->
+    <!-- font awesome style -->
+    <link href="../css/font-awesome.min.css" rel="stylesheet" />
+    <!-- nice select -->
+    <link href="../css/nice-select.min.css" rel="stylesheet" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+    <link href="../Explore%20Resturent/style.css" rel="stylesheet" />
+    <!-- slidck slider -->
+    <link href="../css/slick.min.css" rel="stylesheet" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous"/>    
+    <link rel="stylesheet" href="../css/slick-theme.min.css.map" integrity="undefined" crossorigin="anonymous" />
+
+
+    <!-- Custom styles for this template -->
+    <link href="../css/style.css" rel="stylesheet" />    
+    
+    <!-- responsive style -->    
+    <link href="../css/responsive.css" rel="stylesheet" />
+
+    
+</head>
+
+
+<body>
+    
+
+
+    <form id="form1" runat="server">
+        <div class="hero_area">
+        <!-- header section strats -->
+        <header class="header_section">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
+                    <a class="navbar-brand" href="../Home/Home.aspx">
+                        
+                        <img src="../Home/images/Blogo-removebg-preview.png" alt="Bhukkad"  width="50" height="60" title="Bhukkad"/>
+
+                    </a>
+
+          <div class="" id="">
+              <div id="menu">
+                <div id="menu-bar" onclick="menuOnClick()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+              </div>
+              <nav class="nav" id="nav">
+                <ul>
+                    <li><a href="../Offers/Offers.aspx">Offers</a></li>
+                    <li><a href="../Help/Help.aspx">Help</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+              </nav> 
+              </div>
+
+              <div class="menu-bg" id="menu-bg"></div>
+
+                   <form class="form-inline ">
+                                    
+                                
+                                
+                            </form> 
+
+                    <div class="" id="">
+                        <div class="User_option">
+                            <div class="custom_menu-btn">
+                        <button onclick="opennav()"
+                            <img src="images/menu.png" alt="" />
+                        </button>
+                    </div>
+                    <div id="myNav" class="overlay">
+                        <div class="overlay-content">
+                            <a href="../Offers/Offers.aspx">Offers</a>
+                            <a href="../Help/Help.aspx">Help</a>
+                            <%--<a href="../Offers/Offers.aspx">Offers</a>
+                            <a href="../Offers/Offers.aspx">Offers</a>--%>
+                        </div>
+                    </div>
+                            <a href="../Login/Login.aspx" style="color:white">
+                                <i class="fa fa-user" aria-hidden="true" style="color:white"></i>
+                                <span>Sign In</span>
+                            </a>
+                            
+                           
+                            <a class="align-bottom" href="../Cart/Cart.aspx" style="color:white">
+                                <i class="fa fa-cart-plus" style="font-size:22px; color:white"></i>
+                                <span>Cart</span></a>
+
+                            
+                        </div>
+                    </div>
+                    <%--<div class="custom_menu-btn">
+                        <button onclick="opennav()"
+                            <img src="../home/images/n2.jpg" alt="" />
+                        </button>
+                    </div>
+                    <div id="myNav" class="overlay">
+                        <div class="overlay-content">
+                            <a href="../Offers/Offers.aspx">Offers</a>
+                            <a href="../Help/Help.aspx">Help</a>
+                            <%--<a href="../Offers/Offers.aspx">Offers</a>
+                            <a href="../Offers/Offers.aspx">Offers</a>--%>
+                        <%--</div>
+                    </div>--%>
+                </nav>
+            </div>
+        </header>
+
+        <!-- slider section -->
+        <section class="slider_section ">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-10 mx-auto">
+                        <div class="detail-box">
+                            <h1>Discover Restuarant And Food
+              </h1>
+                            <p>
+                                Welcome to Bhukkad, What you search for Today!
+                            </p>
+                        </div>
+                        <div class="find_container ">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <form>
+                                            <div class="form-row ">
+                                                <div class="form-group col-lg-5">
+                                                    <input type="text" class="form-control" id="inputHotel" placeholder="Restaurant Name">
+                                                </div>
+                                                <div class="form-group col-lg-3">
+                                                    <input type="text" class="form-control" id="inputLocation" placeholder="Bengaluru">
+                                                    <span class="location_icon">
+                                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="form-group col-lg-3">
+                                                    <div class="btn-box">
+                                                        <button type="submit" class="btn "><a href ="">Search</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider_container">
+                <div class="item">
+                    <div class="img-box">
+                        <img src="../images/slider-img1.png" alt="" title="mixed veg" />
+
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-box">
+                        <a href="../lunch/lunch.aspx">
+                        <img alt="qries" src="../images/slider-img2.png" title="paneer"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-box">
+                        <a href="../lunch/lunch.aspx">
+                        <img alt="qries" src="../images/slider-img3.png" title="gravy masala"/>
+                            </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-box">
+                        <a href="../lunch/lunch.aspx">
+                        <img src="../images/slider-img4.png" alt="" title="salaad"/>
+                            </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-box">
+                        <a href="../lunch/lunch.aspx">
+                        <img src="../images/slider-img1.png" alt="" title="mixed veg"/>
+                            </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-box">
+                        <a href="../lunch/lunch.aspx">
+                        <img src="../images/slider-img2.png" alt="" title="paneer"/>
+                            </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-box">
+                        <a href="../lunch/lunch.aspx">
+                        <img src="../images/slider-img3.png" alt="" title="gravy masala"/>
+                            </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img-box">
+                        <a href="../lunch/lunch.aspx">
+                        <img src="../images/slider-img4.png" alt="" title="salaad"/>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end slider section -->
+    </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <div class="footer_container">
+        <!-- info section -->
+        <section class="info_section ">
+            <div class="container">
+                <div class="contact_box">
+                    <a href="">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="info_links">
+                    <ul>
+                        <li class="active">
+                                <a href="../Home/Home.aspx" style="color:#cc1237"> Home</a>
+              </a>
+                        </li>
+                        <li>
+                            <a href="../Home/About.aspx" style="color:#cc1237">About</a>
+              </a>
+                        </li>
+                        <li>
+                            <a href="../Home/Blog.aspx" style="color:#cc1237">Blog</a>
+              </a>
+                        </li>
+                        <li>
+                            <a href="../Home/Testimonial.aspx" style="color:#cc1237">testimonial</a>
+              </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social_box">
+                    <a href="https://www.facebook.com/Bhukkad-109597591805851">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://twitter.com/login">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ranjan-kumar-63359215b/">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- end info_section -->
+
+
+        <!-- footer section -->
+        <footer class="footer_section">
+            <div class="container">
+                <p>
+                    &copy; <span id="displayYear"></span>All Rights Reserved By @Bhukkad
+                </p>
+            </div>
+        </footer>
+        <!-- footer section -->
+
+    </div>
+    
+    <!-- jQery -->
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="../js/bootstrap.js"></script>
+    <!-- slick  slider -->
+    <script src="../js/slick.js"></script>
+    <!-- nice select -->
+
+    <script src="../js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src="../js/custom.js"></script>
+</body>
+</html>
