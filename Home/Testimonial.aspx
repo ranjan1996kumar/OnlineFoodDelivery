@@ -55,18 +55,18 @@
                 <i class="fa fa-user" aria-hidden="true"></i>
                 <span>Login</span>
               </a>
-              <form class="form-inline ">
+             <%-- <form class="form-inline ">
                 <input type="search" placeholder="Search" />
                 <button class="btn  nav_search-btn" type="submit">
                   <i class="fa fa-search" aria-hidden="true"></i>
                 </button>
-              </form>
+              </form>--%>
             </div>
-            <div class="custom_menu-btn">
+            <%--<div class="custom_menu-btn">
               <button onclick="openNav()">
                 <img src="images/menu.png" alt="">
               </button>
-            </div>
+            </div>--%>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
                 <a href="index.html">Home</a>
